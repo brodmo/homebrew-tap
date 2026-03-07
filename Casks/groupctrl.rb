@@ -1,11 +1,10 @@
 cask "groupctrl" do
-  version "0.2.1"
+  version "0.3.0"
+  sha256 arm:   "04e7d9d22b9cf6535510c28cdeb073644dcee8ef8781070946a4b4d1744b13d4",
+         intel: "fc85df65bf6f9e15044d3e9d2ff314cc36a3851567b384b96e1428293aaae882"
 
   arch arm: "Arm", intel: "Intel"
-  sha256 arm:   "cc24be90fdd4e403474791f84664b35383b6bb07700559afd4c1159f3f759591",
-         intel: "3942f16ef10c06719063f140e58601710ab43855659cadaa9d519860c77d2199"
   url "https://github.com/brodmo-dev/GroupCtrl/releases/download/v#{version}/GroupCtrl-#{version}-#{arch}.dmg"
-
   name "GroupCtrl"
   desc "Instant app switching with shared hotkeys"
   homepage "https://github.com/brodmo-dev/GroupCtrl"
