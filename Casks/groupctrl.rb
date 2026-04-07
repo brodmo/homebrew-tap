@@ -1,7 +1,7 @@
 cask "groupctrl" do
-  version "0.5.0"
-  sha256 arm:   "541a92d075b28d7688dd5ae6d3735c510b3d75f1ea19df4a0660e1b3010fdcaf",
-         intel: "b1d9382d784fd841d33c15c59647799fd931b6fecb7a9bbc4b1a213f0f299cba"
+  version "0.5.1"
+  sha256 arm:   "c8ad7de3bb4f6c321db9bd2fda0d0c9971585c541a6353162cd825ce08021258",
+         intel: "3a06700365ee1c3c02baa9336ff9179d61e26887c8d87189845f8f06974c22c6"
 
   arch arm: "Arm", intel: "Intel"
   url "https://github.com/brodmo/GroupCtrl/releases/download/v#{version}/GroupCtrl-#{version}-#{arch}.dmg"
